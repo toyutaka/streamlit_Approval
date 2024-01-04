@@ -129,7 +129,7 @@ if flg_master_exist:
                         '合計(税抜)',
                         '分割金額',
                         '確定処理済(請求書処理済)']]
-    df_Dsp['確定処理済(請求書処理済)'] = pd.to_datetime(df_Dsp['確定処理済(請求書処理済)'], format='%Y/%m/%d')
+    df_Dsp['確定処理済(請求書処理済)'] = pd.to_datetime(df_Dsp['確定処理済(請求書処理済)'])
     #---------------絞り込み適用
     if box_Section != '全て':
         df_Dsp = df_Dsp[df_Dsp['申請者所属組織'] == box_Section]
