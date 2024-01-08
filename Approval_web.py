@@ -5,9 +5,9 @@ import datetime
 import calendar
 # from Approval_Datamake import ReadMasterFile
 
-master_file_path = 'C:\\Users\\0425\\01_work\\01_Python\\02_data\\05_KessaiData//master.csv'
+#master_file_path = 'C:\\Users\\0425\\01_work\\01_Python\\02_data\\05_KessaiData//master.csv'
 #master_file_path = '\\\\nfs01\\all\\管理本部\\新決裁承認申請（仮）//master.csv'
-#master_file_path = 'master.csv'
+master_file_path = 'master.csv'
 
 flg_master_exist = False
 lst_Section = ['全て']
