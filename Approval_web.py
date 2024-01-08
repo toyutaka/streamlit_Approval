@@ -129,7 +129,7 @@ __ = '''
 print('--------------------------main run')
 if flg_master_exist:
     print('--------------------------data reroad')
-    TextHorder.write('【Main_Info】請求書処理日付の入力をお願いします（右端以外のセルは編集しないで～）')
+    TextHorder.write('【Main_Info】請求書処理日付（表右端）の入力をお願いします')
     df_Dsp = df_Master[['申請日',
                         '申請者所属組織',
                         '申請者',
@@ -193,7 +193,7 @@ with st.form(key='form_main'):
     print('--------------------------main run')
     if flg_master_exist:
         print('--------------------------data reroad')
-        TextHorder.write('【Main_Info】請求書処理日付の入力をお願いします（右端以外のセルは編集しないで～）')
+        TextHorder.write('【Main_Info】請求書処理日付（表右端）の入力をお願いします')
         df_Dsp = df_Master[['申請日',
                             '申請者所属組織',
                             '申請者',
